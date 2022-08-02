@@ -39,7 +39,7 @@ def divide(matrix, B):
         return matrix
 
     # 지수를 2로 나눠서 계산
-    # A^(a+b) = A^a * A^b 의 원리
+    # A^(a+b) = A^a * A^b
     a = divide(matrix, B//2)
     # 지수가 홀수인 경우
     # A^(2a +1) = A^a * A^a * A

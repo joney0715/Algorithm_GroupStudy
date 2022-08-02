@@ -15,7 +15,7 @@ for idx, char in enumerate(Input):
     if char == ')':
         pair.append([stack.pop(), idx])
 
-# 결과를 셋으로 하는 이유
+# 결과를 set으로 하는 이유
 # 리스트로 하면 ((1+2)) 같은 경우에 계산 안됨
 answer = set()
 for i in range(1,len(pair)+1):
