@@ -2,12 +2,11 @@ import math
 
 def is_prime(num): # 소수 구하는 함수
     if num == 1:
-        return False
-    
-    for n in range(2, int(math.sqrt(num)) + 1):
-        if num % n == 0:
-            return False
-    
+        return True
+    else:
+        for n in range(2, int(math.sqrt(num)) + 1):
+            if num % n == 0:
+                return False
     return True
 
 is_prime_list = [] # 빈 리스트 선언
@@ -22,8 +21,8 @@ while True:
     if N == 0: # 마지막 입력값 0
         break
     
-    for ns in is_prime_list:
-        if N < ns < N * 2: # 주어진 범위 안에 있는 소수 카운트
+    for value in is_prime_list:
+        if N < value <= N * 2: # 주어진 범위 안에 있는 소수 카운트
             cnt += 1
             
     print(cnt)
