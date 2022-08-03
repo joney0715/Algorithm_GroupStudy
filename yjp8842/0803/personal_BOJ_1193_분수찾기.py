@@ -1,3 +1,5 @@
+# BOJ 1193
+
 X = int(input())
 lines = 1
 
@@ -12,4 +14,4 @@ else:
     n = X
     m = lines - X + 1
     
-print(n, "/", m, sep="")
+print(f"{n}/{m}")

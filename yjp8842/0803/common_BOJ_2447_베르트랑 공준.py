@@ -2,7 +2,7 @@ import math
 
 def is_prime(num): # 소수 구하는 함수
     if num == 1:
-        return True
+        return False
     else:
         for n in range(2, int(math.sqrt(num)) + 1):
             if num % n == 0:
