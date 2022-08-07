@@ -42,6 +42,6 @@ for st in range(st_num):
 for i in range(sw_num):
     print(sw_list[i], end='')
     if (i + 1) % 20 == 0: # 줄의 마지막일 때 19, 39 -> 줄바꿈
-        print()~ 
+        print()
     else:  # 줄의 마지막이 아닐 때 -> 띄어쓰기
         print(' ', end='')
