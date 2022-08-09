@@ -10,3 +10,6 @@ def star(N):
 N = int(input())
 
 star(N)
+
+
+# 매핑 문제에서는  중첩 리스트 중요!
