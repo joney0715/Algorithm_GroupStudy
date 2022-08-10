@@ -2,8 +2,6 @@
 # 220809
 
 """
--45 653
--653 45
 D 1일때만 max_Q로 전환시켜서 최소값 삭제한 다음에,
 max_Q를 하나씩 순회하며 새로 리스트에 넣어 Q를 다시 만든다.
 """
@@ -26,11 +24,14 @@ for _ in range(T):
             heapq.heappush(min_Q, N)
         # D라면
         else:
-            # min_Q에 
+            # min_Q가 있으면 삭제진행
             if min_Q:
+                # 최솟값 삭제 = 그냥 최소힙 삭제
                 if N == -1:
                     heapq.heappop(min_Q)
-                    # print('2', min_Q)
+                
+                # 최댓값 삭제 = 최대힙으로 바꾸고 삭제 후
+                # 다시 최소힙으로 바꾼다
                 else:
                     # max_Q 재정의
                     max_Q = []
