@@ -82,8 +82,8 @@
 | 주차 | 알고리즘 주제         | 공통 문제                                                    |
 | ---- | --------------------- | ------------------------------------------------------------ |
 | 1    | 수학 / 재귀           | [백준 / 골드5] [별찍기](https://www.acmicpc.net/problem/2447)<br />[백준 / 실버2] [베르트랑 공준](https://www.acmicpc.net/problem/4948) |
-| 2    | 자료구조              |                                                              |
-| 3    | 정렬                  |                                                              |
+| 2    | 자료구조              | 프로그래머스 올바른 괄호<br />https://school.programmers.co.kr/learn/courses/30/lessons/12909 <br />백준 이중우선순위 큐<br />https://www.acmicpc.net/problem/7662 |
+| 3    | 정렬                  | https://www.acmicpc.net/problem/15553<br />https://www.acmicpc.net/problem/18870 |
 | 4    | DP 기초               |                                                              |
 | 5    | DFS, BFS              |                                                              |
 | 6    | 다익스트라, 플로-와샬 |                                                              |
