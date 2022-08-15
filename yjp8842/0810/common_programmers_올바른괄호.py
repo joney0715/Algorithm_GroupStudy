@@ -10,7 +10,7 @@ def solution(s):
             # 리스트가 비어있다면 False
             if list == []:
                 return False
-            # 리스트가 비어있지 않다면 즉, (가 들어있다면 추출
+            # 리스트가 비어있지 않다면 즉, (가 들어있다면 추출 -> 즉, () 한 쌍이 빠지게 됨
             else:
                 list.pop()
     
