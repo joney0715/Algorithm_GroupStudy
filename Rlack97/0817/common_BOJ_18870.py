@@ -22,5 +22,4 @@ for a in Xs:
 
     result.append(cnt)
  
-print (*result) 
-# 언패킹 최고
+print (*result)
