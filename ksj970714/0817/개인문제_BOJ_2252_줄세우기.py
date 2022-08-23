@@ -47,3 +47,4 @@ while count > 0:
 
 
 print(*solve)
+
