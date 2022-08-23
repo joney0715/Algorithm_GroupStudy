@@ -47,6 +47,7 @@ def check(road):
                     else:
                         cnt = 1
     
+    # flag가 아직 서있으면 아직 언덕이 덜 처리됐다는 뜻
     if flag:
         return False
     else: 
@@ -60,11 +61,13 @@ for tc in range(1, T+1):
 
     map_list = [list(map(int, input().split())) for _ in range(N)]
 
+    # 행
     airstrip = 0
     for r in range(N):
         if check(map_list[r]):
             airstrip += 1
 
+    # 열
     for c in range(N):
         col = []
         for r in range(N):
