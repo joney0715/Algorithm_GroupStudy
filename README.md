@@ -83,16 +83,17 @@
 | ---- | --------------------- | ------------------------------------------------------------ |
 | 1    | 수학 / 재귀           | [백준 / 골드5] [별찍기](https://www.acmicpc.net/problem/2447)<br />[백준 / 실버2] [베르트랑 공준](https://www.acmicpc.net/problem/4948) |
 | 2    | 자료구조              | 프로그래머스 올바른 괄호<br />https://school.programmers.co.kr/learn/courses/30/lessons/12909 <br />백준 이중우선순위 큐<br />https://www.acmicpc.net/problem/7662 |
-| 3    | 정렬                  | https://www.acmicpc.net/problem/15553<br />https://www.acmicpc.net/problem/18870 |
-| 4    | DP 기초               |                                                              |
-| 5    | DFS, BFS              |                                                              |
-| 6    | 다익스트라, 플로-와샬 |                                                              |
-| 7    | 그리디                |                                                              |
-| 8    | 이진 탐색 / 분할 정복 |                                                              |
-| 9    | 완전 탐색 / 백트래킹  |                                                              |
-| 10   | 시뮬레이션 / 구현     |                                                              |
-| 11   | TBD                   |                                                              |
+| 3    | 정렬                  | 난로 https://www.acmicpc.net/problem/15553<br />좌표 압축 https://www.acmicpc.net/problem/18870 |
+| 4    | DP 기초               | 피보나치 함수 https://www.acmicpc.net/problem/1003<br />01타일 https://www.acmicpc.net/problem/1904 |
+| 5    | IM 대비               | 최고의 피자 https://www.acmicpc.net/problem/5545<br />신입사원 https://www.acmicpc.net/problem/1946 |
+| 6    | DFS, BFS              |                                                              |
+| 7    | 다익스트라, 플로-와샬 |                                                              |
+| 8    | 그리디                |                                                              |
+| 9    | 이진 탐색 / 분할 정복 |                                                              |
+| 10   | 완전 탐색 / 백트래킹  |                                                              |
+| 11   | 시뮬레이션 / 구현     |                                                              |
 | 12   | TBD                   |                                                              |
+| 13   | TBD                   |                                                              |
 |      |                       |                                                              |
 |      |                       |                                                              |
 
