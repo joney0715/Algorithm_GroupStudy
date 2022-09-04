@@ -32,4 +32,4 @@ for tc in range(1,T+1):
     print(answer)
 
 
-# readline으로 시간단축해서 통과.... 진짜 돌겠네
+# readline으로 시간단축해서 통과
