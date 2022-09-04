@@ -8,7 +8,6 @@ for i in range (N):
     topping_cal.append(D)
     # 입력값 받기
 
-    
 Bk = sorted(topping_cal,reverse=True)
 # 역순으로 정렬 ( 1원당 칼로리 효율이 좋은 토핑 순서)
 
