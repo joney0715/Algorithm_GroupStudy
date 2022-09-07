@@ -39,8 +39,6 @@ for i in range(N):
     # 그 외
     tree[N_list[i]].append(i)
 
-print(tree)
-
 visit = [False] * N
 cnt = 0
 for n in range(N):
