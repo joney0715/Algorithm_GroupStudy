@@ -35,7 +35,6 @@ for i in range(1, cnt):
     for x in visit:
         N_list[i] += x.count(i)
     
-print(answer)
 N_list.sort()
 for j in range(1, cnt):
     print(N_list[j])
