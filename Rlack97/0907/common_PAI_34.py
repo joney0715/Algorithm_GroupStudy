@@ -14,7 +14,6 @@ def DFS(elements):
         result.append(prev_elements[:]) 
         #5. 직전의 prev_element에 저장되어 있는 게 리스트 내 값으로 만든 순열이므로 
         #result 리스트에 저장
-        
 
     for e in elements:
         next_elements = elements[:]
@@ -26,6 +25,7 @@ def DFS(elements):
 
         DFS(next_elements)
         #3. 남아있는 요소들로 반복하면, prev에 순열이 생성
+
         prev_elements.pop()
         #6. 순열 하나가 완성되면, 방문하지 않은 가지로 가기 위해 pop으로
         #prev_elements()에서 가장 최신 값을 제거
