@@ -34,8 +34,6 @@ for i in range(N - 1):
 
 visited = [0] * (N + 1)
 
-# 재귀 깊이 때문에 python 내에서 스택을 선언
-# (시스템 스택 사용 X)
 stack = [[1, 0]]
 
 result = 0
@@ -43,6 +41,7 @@ while stack:
     v, l = stack.pop()
     visited[v] = 1
 	
+    # leaf node : 자식이 없는 노드
     # leaf node 인지 판별
     flag = False
     # 현재 v 노드가 갈 수 있는 곳이 한곳이라도 있다면 leaf 노드가 아님
@@ -51,11 +50,13 @@ while stack:
             flag = True
 	
     # leaf node가 아닌 경우, 스택에 저장
+    # 자식 노드가 있는 경우
     if flag == True:
         if rooms[v]:
             for nv, nl in rooms[v]:
                 if visited[nv] == 0:
                     stack.append([nv, l + nl])
+                    
     # leaf node인 경우, 최대값 갱신
     else:
         if l > result:
