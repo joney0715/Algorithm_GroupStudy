@@ -16,5 +16,5 @@ for index in stack:
     A[index] = -1
 
 A.pop()
-
 print(*A)
+
