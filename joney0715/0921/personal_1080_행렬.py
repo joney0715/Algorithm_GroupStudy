@@ -23,6 +23,7 @@ for _ in range(N):
     B_matrix.append(row)
 
 answer = 0
+flag = 0
 for i in range(N - 2):
     for j in range(M - 2):
         if A_matrix[i][j] != B_matrix[i][j]:
@@ -30,8 +31,9 @@ for i in range(N - 2):
             answer += 1
 
         if A_matrix == B_matrix:
+            flag = 1
             break
-    if A_matrix == B_matrix:
+    if flag:
         break
 
 if A_matrix != B_matrix:
