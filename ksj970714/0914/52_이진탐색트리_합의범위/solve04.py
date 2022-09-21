@@ -13,7 +13,7 @@ class Solution:
                         dq.append(node.left)
                     if node.val < R:  # 만약 노드 밸류가 R보다 작으면,
                         # 오른쪽 노드 또한 조건에 맞을 수 있으니 더해줌.
-                        dq.append(node.right):
+                        dq.append(node.right)
                     if L <= node.val <= R:
                         my_sum += node.val  # 조건에 맞으면 더해줌.
         return my_sum

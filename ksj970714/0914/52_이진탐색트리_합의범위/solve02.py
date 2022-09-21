@@ -12,8 +12,8 @@ class Solution:
                 return dfs(node.right)
             if node.val > R:
                 return dfs(node.left)
-        #이 두 조건을 만족하지 않을 경웨 L<node.val<R이므로
+        #이 두 조건을 만족하지 않을 경우에 L<node.val<R이므로
             return node.val + dfs(node.left) + dfs(node.right)
         #계속 return return..하며 조건에 맞는 값일 경우 더해줌
+        return dfs(root)
 
-        return (dfs(root))

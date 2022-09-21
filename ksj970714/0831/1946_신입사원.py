@@ -4,7 +4,6 @@ import sys
 for test in range(T):
     N = int(input())
     vec = []
-    mydict = {}
     for i in range(N):
         x,y = map(int,sys.stdin.readline().split())
         vec.append([x,y])
@@ -18,6 +17,5 @@ for test in range(T):
             my_min = vec[idx][1]
         else:
             passed_man -= 1
-
 
     print(passed_man)
