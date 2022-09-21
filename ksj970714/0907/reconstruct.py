@@ -3,9 +3,10 @@ tickets = [["MUC","LHR"],["JFK","MUC"],["SFO","SJC"],["LHR","SFO"]]
 import collections
 
 graph = collections.defaultdict(list) #keyerror 대신 디폴트 값 반환하는 딕셔너리
-tickets.sort()
-print(tickets)
-for a,b in sorted(tickets):
+#기본값으로 빈 리스트가 존재하기 때문에, 각각의 key에 대해 빈 리스트를 만들지 않아도
+# 키: 리스트 대응하는 딕셔너리를 만들어줄 수 있다.
+
+for a, b in sorted(tickets):
     '''
     한번 정렬. 정렬 기준: 첫 원소-> 둘째 원소 순으로 자동으로 해줌.
     따라서 이렇게 정렬하고 하면 자동으로 사전 순서로 정렬됨, 
@@ -23,3 +24,4 @@ def dfs(point):
 
 dfs('JFK') #JFK 지점부터 시작해 인덱싱.
 print(route[::-1])
+
