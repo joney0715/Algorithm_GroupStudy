@@ -68,7 +68,7 @@ def FindChildren2(self, g, s):
             # 아이들 리스트 내부에서 i값, 즉 쿠키 사이즈 값을 이진탐색
             # bisect_right는 찾아낸 값의 인덱스에 +1을 해서 반환한다. 
             # 즉, 해당 쿠키값보다 작은 그리드값을 가진 아이들의 수.
-            if index > result:
-                # 인덱스값이 현재 쿠키를 준 아이의 값보다 클 경우 더 줄 수 있음.
-                result += 1
+        if index > result:
+            # 인덱스값이 현재 쿠키를 준 아이의 값보다 클 경우 더 줄 수 있음.
+            result += 1
     return result
