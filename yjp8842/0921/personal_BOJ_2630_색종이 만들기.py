@@ -1,3 +1,5 @@
+# 분할 정복
+
 N = int(input())
 
 paper = []
