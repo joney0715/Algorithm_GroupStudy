@@ -85,7 +85,7 @@ def invertTree(self, root):
     while stack:
         node = stack.pop()
 
-        if node:      
+        if node:
             stack.append(node.left)
             stack.append(node.right)
 
