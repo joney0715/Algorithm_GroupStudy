@@ -1,3 +1,20 @@
+# 내 풀이
+
+people = [[7, 0], [4, 4], [7, 1], [5, 0], [6, 1], [5, 2]]
+
+sort_people = sorted(people, key = lambda x : (-x[0], x[1]))
+# [[7, 0], [7, 1], [6, 1], [5, 0], [5, 2], [4, 4]]
+
+re_sort = []
+for i in range(len(sort_people)):
+    p = sort_people.pop(0)
+    re_sort.insert(p[1], p)
+    
+print(re_sort)
+
+
+# 교재 풀이
+
 import heapq
 
 people = [[7, 0], [4, 4], [7, 1], [5, 0], [6, 1], [5, 2]]
